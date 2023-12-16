@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'RubikScribble';
     src: url(../fonts/RubikScribble-Regular.ttf) format('woff2');
-  }
+}
 
 body {
-    background-color:rgb(183, 222, 183) ;
+    background-color: white ;
 }
 
 h1{
 color: black;
-text-align: left;
+text-align: center;
 margin-left: 0%;
 }
 
@@ -28,25 +28,26 @@ font-weight: bold;
 .jumbotron{
     background-color: white;
     border-radius: 4px;
-    text-align:left;
+    text-align:center;
     font-weight: lighter;
     font-size: 20px;
 }
 
-.jumbotron img{
+.profile{
+    background-image: url(../images/Portfolio\ image.png);
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 200px;
     height: 200px;
-    padding: 10px;
-    border: solid 2px seagreen;
+    margin: 0 auto;
 }
 
-/* .card{
-    /* height:100%; */
-    
- */
-
-.work{
-    color: seagreen;
+.card{
+    text-align: center;
+    background: darkseagreen;
+    border-radius: 4px;
+    margin: 5px;
 }
 
 a{
@@ -55,14 +56,11 @@ a{
 }
 
 a :hover{
-    color: green;
-    box-shadow: inset;
+    color: green !important;
+    box-shadow: inset !important;
 }
 
-.container-fluid{
-    background-color: white;
+.container{
+    background-color: whitesmoke;
 }
 
-/* .CardContainer{
-    
-} */
