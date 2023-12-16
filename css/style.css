@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'RubikScribble';
+    src: url(../fonts/RubikScribble-Regular.ttf) format('woff2');
+  }
+
+body {
+    background-color:rgb(183, 222, 183) ;
+}
+
+h1{
+color: black;
+text-align: left;
+margin-left: 0%;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.navbar-brand{
+font-family: RubikScribble;
+font-size: 30px;
+color: black;
+font-weight: bold;
+}
+
+.jumbotron{
+    background-color: white;
+    border-radius: 4px;
+    text-align:left;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.jumbotron img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: solid 2px seagreen;
+}
+
+/* .card{
+    /* height:100%; */
+    
+ */
+
+.work{
+    color: seagreen;
+}
+
+a{
+    text-decoration: none;
+    color: seagreen;
+}
+
+a :hover{
+    color: green;
+    box-shadow: inset;
+}
+
+.container-fluid{
+    background-color: white;
+}
+
+/* .CardContainer{
+    
+} */
