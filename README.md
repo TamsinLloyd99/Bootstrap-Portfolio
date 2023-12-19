@@ -5,6 +5,7 @@ In this assignment, we'll be building your portfolio layout using the Bootstrap 
 # Instructions:
 
 Using Bootstrap, recreate your portfolio site with the following items:
+
 -A navigation bar
 -A navigation menu at the top. Feel free to use the navbar code provided in Bootstrap's documentation, or create your own navbar by applying the correct Bootstrap classes to your HTML.
 -Include links that are applicable to your portfolio.
@@ -27,3 +28,6 @@ Using Bootstrap, recreate your portfolio site with the following items:
 *All buttons should display a box shadow upon hover.
 *Your Bootstrap solution should minimize use of media queries.
 *Deploy your new Bootstrap-powered portfolio to GitHub Pages.
+
+HTML tags from Bootstrap 
+
