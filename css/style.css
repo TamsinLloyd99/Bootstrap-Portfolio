@@ -3,6 +3,12 @@
     src: url(../fonts/RubikScribble-Regular.ttf) format('woff2');
 }
 
+:root{
+--Background: whitesmoke;
+--light: darkseagreen;
+--dark: seagreen;
+}
+
 body {
     background-color: white ;
 }
@@ -26,12 +32,12 @@ font-weight: bold;
 }
 
 .jumbotron{
-    background-color: white;
     border-radius: 4px;
     text-align:center;
     font-weight: lighter;
     font-size: 20px;
 }
+
 
 .profile{
     background-image: url(../images/Portfolio\ image.png);
@@ -43,24 +49,58 @@ font-weight: bold;
     margin: 0 auto;
 }
 
+.jumbotron p{
+    margin-top: 10px;
+} 
+
 .card{
     text-align: center;
-    background: darkseagreen;
+    background: var(--light);
     border-radius: 4px;
     margin: 5px;
 }
 
+.skills {
+    background-color: var(--Background);
+    width: 90%;
+    margin: 0 auto;
+    height: 170px;
+}
+
+.skills p{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
 a{
     text-decoration: none;
-    color: seagreen;
+    color: var(--light)
 }
 
 a :hover{
-    color: green !important;
+    color: var(--dark) !important;
     box-shadow: inset !important;
 }
 
 .container{
-    background-color: whitesmoke;
+    background-color: var(--Background);
 }
 
+.contact{
+    background-color: var(--Background);
+    width: 90%;
+    margin: 0 auto;
+    height: 170px;
+}
+
+.contact ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact i{
+    margin-top: 10px;
+    transform: scale(2);
+}
