@@ -64,12 +64,20 @@ font-weight: bold;
     background-color: var(--Background);
     width: 90%;
     margin: 0 auto;
-    height: 170px;
+    height: 150px;
 }
 
 .skills p{
     text-align: center;
     width: 50%;
+    margin: 0 auto;
+}
+
+.footer{
+    width:100%;
+    background-color:var(--dark);
+    text-align: center;
+    color: var(--light);
     margin: 0 auto;
 }
 
@@ -83,6 +91,10 @@ a :hover{
     box-shadow: inset !important;
 }
 
+btn :hover{
+    box-shadow: inset !important;
+}
+
 .container{
     background-color: var(--Background);
 }
@@ -91,9 +103,12 @@ a :hover{
     background-color: var(--Background);
     width: 90%;
     margin: 0 auto;
-    height: 170px;
+    height: 150px;
 }
 
+.contact h1{
+   margin-bottom: 20px;
+}
 .contact ul{
     list-style: none;
     display: flex;
